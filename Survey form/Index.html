@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Experience Survey  </title>
+</head>
+<body>
+    <h1 id="title">AI Experince Survey Form</h1>
+    <p id="description">What are you thoughts on AI</p>
+    <form id="survey-form">
+    <fieldset>
+        <label for="name">  Name <input id="name" type="text" placeholder="Enter your name" required></label>
+        <label for="email"> Email <input id="email" type="email" placeholder="Enter your email" required></label>
+        <label for="age">Age <input id="number" type="number" placeholder="Enter your age"name="age" min="12" max="120">
+        </label>
+    </fieldset>    
+    <fieldset>
+        <legend>Have you used AI?</legend>
+        <label for="yes"><input id="yes" type="radio" name="yes" class="inline" checked>Yes</label>
+        <label for="no"><input id="no" type="radio" name="yes" class="inline">No</label>      
+    </fieldset>
+    <fieldset>
+        <div> What AI tools do you use? (Select all that apply)
+
+         <label>
+             <input 
+             name="prefer"
+             value="chatgpt"
+             type="checkbox"
+             class="input-checkbox"
+             > Chatgpt
+         </label>
+         <label>
+            <input 
+            name="prefer"
+            value="gemini"
+            type="checkbox"
+            class="input-checkbox"
+            > Gemini
+        </label>
+        <label>
+            <input 
+            name="prefer"
+            value="deepseek"
+            type="checkbox"
+            class="input-checkbox"
+            > DeepSeek
+        </label>
+        <label>
+            <input 
+            name="prefer"
+            value="midjourney"
+            type="checkbox"
+            class="input-checkbox"
+            > Midjourney
+        </label>
+        <label>
+            <input 
+            name="prefer"
+            value=""
+            type="checkbox"
+            class="input-checkbox"
+            > 
+        </label>
+        <label>
+            <input 
+            name="prefer"
+            value=""
+            type="checkbox"
+            class="input-checkbox"
+            > 
+        </label>
+        <label>
+            <input 
+            name="prefer"
+            value=""
+            type="checkbox"
+            class="input-checkbox"
+            > 
+        </label>
+            
+        </div>
+
+
+    </fieldset>
+    <fieldset> 
+      <label>How often do you use AI?
+         <select id="usage" name="usage">
+             <option value="">(select one)</option>
+             <option value="1">Daily</option>
+             <option value="2">A few times a week </option>
+             <option value="3">Once a week </option>
+             <option value="4">A few times a month</option>
+             <option value="5">Once a month </option>
+             <option value="6">Less than once a month</option>
+             <option value="7">Never</option>
+         </select>
+      </label>    
+ 
+    </fieldset>
+    <fieldset>
+        <label for="experience">What is your opinion on AI? 
+            <textarea id="experience" name="experience" rows="3" cols="30" placeholder="I like using AI for research"></textarea>
+          </label>
+
+    </fieldset>
+</form>
+
+</body>
+</html>
